@@ -46,6 +46,15 @@ For each touched unit, look at:
 - **Its tests:** do they test the changed behaviour directly, and would they fail if it broke (EP-08)?
 - **The reader's view:** could a capable new junior understand the file without opening ten others
   (EP-04, EP-05)? Is there machinery the problem doesn't need (EP-06)?
+- **Its fit with the system as it runs today:** the code a change touches carries assumptions about
+  the world: which services exist, how they authenticate, what configuration and names are live,
+  which integrations were retired or replaced. Check those assumptions against current reality (the
+  repo's own docs and decision records, recent migrations, the live configuration you can read). An
+  approved change that leaves its surrounding code describing a world that no longer exists is not
+  done: running that code can silently undo a migration (EP-09, EP-01). Stale assumptions are a
+  class: name it ("this module still targets the retired X") and list every instance, not only the
+  lines in the diff. *Example:* a fix to how a sync script finds a webhook, inside a script whose
+  variable names, comments and auth method still target a platform the project already left.
 
 Keep a short **declined to judge** list: things you noticed but set aside, with the reason (outside
 the task, generated code, an exception documented in a decision record). Nothing you set aside is

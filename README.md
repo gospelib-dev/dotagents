@@ -17,14 +17,13 @@ Grouped in `skills.sh.json` (Hermes shows these as hub categories). Each profile
 | `fixing-a-wrong-memory` | you are corrected or find a stored memory is wrong. Delete every copy, save once |
 | `use-existing-solutions-first` | before building anything. Find the built-in or existing solution first |
 
-### Engineering (16)
+### Engineering (15)
 
 | Skill | Use when |
 | --- | --- |
 | `audio-pipeline-verification` | building or reviewing TTS/audio render or export. Measure, don't echo |
 | `backlog-grooming` | grooming a backlog: one state per item, verify claims, owner unblocks |
 | `coding-task-intake` | taking a coding task end to end: intake, build, verify, PR, report |
-| `credential-gated-runner` | building a sudo-gated runner that keeps secrets away from agents |
 | `dependency-update-review` | triaging bot dependency PRs or lockfile changes. Reconcile, verdict |
 | `docs-drift-sweep` | keeping project docs in step with merged code, or reviewing a docs PR |
 | `engineering-principles` | writing, reviewing or fixing code. Principles plus review and fix-the-class protocols |

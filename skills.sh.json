@@ -14,7 +14,6 @@
         "audio-pipeline-verification",
         "backlog-grooming",
         "coding-task-intake",
-        "credential-gated-runner",
         "dependency-update-review",
         "docs-drift-sweep",
         "engineering-principles",

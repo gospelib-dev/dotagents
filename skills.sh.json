@@ -1,0 +1,103 @@
+{
+  "$schema": "https://skills.sh/schemas/skills.sh.schema.json",
+  "groupings": [
+    {
+      "title": "Common (every agent)",
+      "skills": [
+        "fixing-a-wrong-memory",
+        "use-existing-solutions-first"
+      ]
+    },
+    {
+      "title": "Engineering",
+      "skills": [
+        "audio-pipeline-verification",
+        "backlog-grooming",
+        "coding-task-intake",
+        "credential-gated-runner",
+        "dependency-update-review",
+        "docs-drift-sweep",
+        "engineering-principles",
+        "initiative-inventory-mapping",
+        "local-web-app-hardening",
+        "merge-queue-stewardship",
+        "pull-request-review",
+        "qa-acceptance-evidence",
+        "tech-debt-ranking",
+        "test-lanes-and-coverage",
+        "web-accessibility-check",
+        "work-planning"
+      ]
+    },
+    {
+      "title": "Ops",
+      "skills": [
+        "alert-triage",
+        "readonly-infrastructure-inspection"
+      ]
+    },
+    {
+      "title": "Writing & book production",
+      "skills": [
+        "chapter-sequence-renumbering",
+        "conlang-usage-review",
+        "dialogue-voice-review",
+        "editorial-production-management",
+        "fiction-manuscript-editing",
+        "fiction-pacing-review",
+        "fiction-prose-craft",
+        "layered-chapter-drafting",
+        "manuscript-book-build",
+        "manuscript-readiness-assessment",
+        "markdown-section-extraction",
+        "originality-check",
+        "prose-text-analysis",
+        "science-plausibility-review",
+        "story-continuity-audit",
+        "story-expertise-seeding"
+      ]
+    },
+    {
+      "title": "Organizing",
+      "skills": [
+        "clutter-feelings-and-hoarding",
+        "decluttering-method-guide",
+        "household-paper-flow",
+        "organizing-for-adhd-households",
+        "room-organizing-playbooks",
+        "unwanted-item-routing"
+      ]
+    },
+    {
+      "title": "Planning",
+      "skills": [
+        "capacity-first-scheduling",
+        "task-triage-and-rating"
+      ]
+    },
+    {
+      "title": "Finance",
+      "skills": [
+        "household-money-guidance",
+        "reconciled-spending-reports"
+      ]
+    },
+    {
+      "title": "Personal assistant",
+      "skills": [
+        "daily-brief",
+        "evening-check-in",
+        "household-request-capture",
+        "owned-calendar-stewardship",
+        "person-profile-seeding",
+        "smart-home-request-handling"
+      ]
+    },
+    {
+      "title": "Lance-facing",
+      "skills": [
+        "i-have-adhd"
+      ]
+    }
+  ]
+}

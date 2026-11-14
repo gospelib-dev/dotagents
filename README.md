@@ -14,10 +14,11 @@ Project-specific facts stay in each project's own skills and `AGENTS.md`; those 
 
 Each folder under `skills/` is one agent type. A profile loads the folders that match its job.
 
-### `common/` — every agent (1)
+### `common/` — every agent (2)
 
 | Skill | Use when |
 | --- | --- |
+| `use-existing-solutions-first` | always, before building anything: find the built-in or existing solution first (pinned for every agent) |
 | `fixing-a-wrong-memory` | you are corrected or find a stored memory is wrong. Delete every copy, save once |
 
 ### `engineering/` — agents that write, review, test or ship code (16)

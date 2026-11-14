@@ -24,6 +24,8 @@ either. The fix is to remove every stored copy of the wrong fact and then store 
 2. **Delete each wrong version** by its id. Leave unrelated facts alone, even if they share words.
 3. **Save the correct fact once**, in one clear sentence that stands on its own (who, what, since when).
 4. **Confirm** by searching once more: only the corrected fact should come back.
+5. **Repeat in every other store you keep** (notes files, local memory files, profile docs): the same wrong
+   fact usually lives in more than one place.
 
 ## Rules
 - Never add a correction on top of a wrong memory without deleting the wrong one.

@@ -1,0 +1,21 @@
+# Sources
+
+Field sources used by this skill. Canon claims come from the project's own language files, not these works.
+
+
+- **S1.** International Phonetic Association. “The IPA Chart.” Official alphabet, diacritics, suprasegmentals, and tone notation. https://www.internationalphoneticassociation.org/content/chart
+- **S2.** Ian Maddieson. “Syllable Structure.” *World Atlas of Language Structures Online*, ch. 12. Canonical CV templates and cross-linguistic syllable complexity. https://wals.info/chapter/12
+- **S3.** Steven Moran and Daniel McCloy, eds. *PHOIBLE 2.0*. Max Planck Institute for the Science of Human History, 2019. Cross-linguistic phonological inventories; convenience-sample and source-disagreement cautions. https://phoible.org
+- **S4.** Harry van der Hulst. “Vowel Harmony.” *Oxford Research Encyclopedia of Linguistics*, 2016, DOI 10.1093/acrefore/9780199384655.013.38. Harmony features, domains, triggers/targets, and neutral vowels. https://oxfordre.com/linguistics/oso/viewentry/10.1093$002facrefore$002f9780199384655.001.0001$002facrefore-9780199384655-e-38
+- **S5.** Balthasar Bickel and Johanna Nichols. “Fusion of Selected Inflectional Formatives.” *WALS Online*, ch. 20. Isolating, concatenative, and nonlinear marking. https://wals.info/chapter/20
+- **S6.** Matthew S. Dryer. “Prefixing vs. Suffixing in Inflectional Morphology.” *WALS Online*, ch. 26. Affix position across grammatical categories. https://wals.info/chapter/26
+- **S7.** Bernard Comrie, Martin Haspelmath, and Balthasar Bickel. “The Leipzig Glossing Rules.” Max Planck Institute for Evolutionary Anthropology and University of Leipzig. https://eva.mpg.de/lingua/resources/glossing-rules
+- **S8.** Universal Dependencies contributors. “Morphology: General Principles.” Lemmas, lexical categories, and cross-linguistic morphosyntactic features. https://universaldependencies.org/u/overview/morphology.html
+- **S9.** Paul J. Hopper and Elizabeth Closs Traugott. *Grammaticalization*, 2nd ed. Cambridge University Press, 2003/2012 online, DOI 10.1017/CBO9781139165525. Language change, reanalysis, and analogy. https://www.cambridge.org/core/books/grammaticalization/420C6D59856F8020065C275312FE2E1B
+- **S10.** David J. Peterson. *The Art of Language Invention*. Penguin Books, 2015. Phonology, grammar, evolution, pragmatics, and professional media conlanging. https://www.penguinrandomhouse.com/books/316207/the-art-of-language-invention-by-david-j-peterson/
+- **S11.** Mark Rosenfelder. *The Language Construction Kit*. Naturalistic language construction and the warning against backfilling grammar from isolated text. https://zompist.com/kit.html
+- **S12.** J. R. R. Tolkien, eds. Dimitra Fimi and Andrew Higgins. *A Secret Vice: Tolkien on Invented Languages*. HarperCollins, 2016. Language invention, mythology, and phonetic symbolism. Publisher description reproduced by the Tolkien Society: https://www.tolkiensociety.org/2016/04/a-secret-vice-tolkien-on-invented-languages-published/
+- **S13.** Modern Language Association. “How should I treat foreign terms in MLA style?” *MLA Style Center*. Foreign-term italics and exceptions for proper nouns and complete quotations. https://style.mla.org/styling-foreign-terms/
+- **S14.** Matilde Pires. “On the Intelligibility of a ‘Created Language’: Language Switching in the Prehistoric Novel Series *Sous le vent du monde* by Pierre Pelot.” *RiCOGNIZIONI* 12.23 (2025): 151–164. DOI 10.13135/2384-8987/11512. Contextual glossing and inference in invented-language fiction. https://ojs.unito.it/index.php/ricognizioni/article/view/11512
+- **S15.** Antonina Filonov Gove. “Multilingualism and Ranges of Tone in Nabokov’s *Bend Sinister*.” *Slavic Review* 32.1. Literary code-switching functions including precision, nuance, realism, irony, and play. https://www.cambridge.org/core/journals/slavic-review/article/multilingualism-and-ranges-of-tone-in-nabokovs-bend-sinister/D674B9126C1CB93DFE39274AB28ECE75
+- **S16.** Mohammed Albakry and Patsy Hunter Hancock. “Code Switching in Ahdaf Soueif’s *The Map of Love*.” *Language and Literature* 17.3 (2008): 221–234. DOI 10.1177/0963947008092502. Cultural, aesthetic, mood, and readability functions of literary switching. https://journals.sagepub.com/doi/10.1177/0963947008092502

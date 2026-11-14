@@ -115,7 +115,9 @@ Each folder under `skills/` is one agent type. A profile loads the folders that 
 - Hermes: each gateway host keeps a read-only checkout at `/opt/dotagents` (pulled every 15 minutes). Each
   profile lists the agent-type folders it needs in `skills.external_dirs`, always including
   `/opt/dotagents/skills/common`.
-- Other harnesses: point their skills directory (or symlinks) at the matching `skills/<agent-type>/` folders.
+- Other harnesses: each `skills/<agent-type>/` folder is a flat, spec-compliant skills root
+  (`<name>/SKILL.md`). Point the harness at the folders it needs. Don't use `skills/` itself as a single
+  `~/.agents/skills`: the Agent Skills layout is flat, and most tools do not search nested folders.
 - Project rules: add the router line from `instructions/agents-md-router.md` to a repo's `AGENTS.md`.
 
 ## Writing a skill here

@@ -1,0 +1,72 @@
+# Decision log
+
+Decisions about the engineering principles and how they are applied. Append new entries at the
+end. Once an entry is accepted, it is not edited; a later entry supersedes it by ID. Open entries
+are waiting for the owner and may be refined until decided. Format and process:
+[authoring.md](authoring.md).
+
+---
+
+## D-001 Principles over decrees
+- **Status:** accepted
+- **Date / decided by:** 2026-11-14, Lance (owner)
+- **Context:** Agent instructions across the fleet had grown into lists of if/then rules, often in
+  capitals, with little explanation. Agents followed their letter, missed their intent, and had no
+  way to handle cases the rules didn't anticipate. Contradictions crept in between rule sets.
+- **Decision:** Every coding rule is stated as a principle with the value(s) it protects. Specific
+  cases appear only as labelled examples. The shared document stays short and evolves by getting
+  clearer, not by accumulating cases. Project-specific rules stay in each repo's `AGENTS.md` and
+  are mapped to principles.
+- **Consequences:** Agents are expected to exercise judgment and to explain it. Reviewers must cite
+  a principle or project rule for every finding. Machine checks remain welcome, but each one names
+  the principle it serves. Existing rule sets (for example the GospeLib integrity standard) should
+  be reframed around their principles over time; see [gospelib-mapping.md](gospelib-mapping.md).
+- **Supersedes:** none.
+
+## D-002 Findings are classes
+- **Status:** accepted
+- **Date / decided by:** 2026-11-14, Lance (owner)
+- **Context:** Fixes for review comments tended to change the quoted line only. The same class of
+  problem stayed elsewhere and came back in later reviews; agents copied the uncorrected instances.
+- **Decision:** A review finding, bug or lint error is treated as evidence of a violated principle.
+  Reviewers state each finding as a class with a scoped search and the instances found. Fixers
+  identify the principle, search for every other instance in scope before fixing, fix at the shared
+  cause, add a guard, and report the evidence (EP-10, review and fix protocols). "Smallest change"
+  means smallest *sufficient* change: no hard-coded one-offs, no fix-one-ignore-the-rest, and no
+  rewrite for a minor bug (EP-11).
+- **Consequences:** Fix rounds take somewhat longer and touch more files; review rounds should fall,
+  and repeat findings should become rare. Reports must include queries and ruled-out hits.
+- **Supersedes:** none.
+
+## D-003 Out-of-scope instances are marked with a structured `@todo`
+- **Status:** accepted
+- **Date / decided by:** 2026-11-14, Lance (owner)
+- **Context:** GospeLib's integrity standard (BS-1/BS-2) hands off out-of-scope or risky fixes with a
+  `@todo:` comment, while its `AGENTS.md` Golden Rule 12 forbids deferring without owner sign-off.
+  An alternative that routed every such finding to the owner through a task card was rejected as
+  too tied to one harness.
+- **Decision:** a fixer or author who cannot safely fix an instance within the change's scope leaves
+  a structured marker at the site, `@todo(EP-nn): <class in one sentence> — <what the fix should be>`, and lists the markers in the PR description. The
+  project's tooling, whatever it is, may collect markers on a schedule and turn them into tickets.
+  Markers are precise descriptions of owed work, written for a reader who has never seen the PR;
+  known instances are never left unmarked.
+- **Consequences:** the fix and review protocols use the marker; GospeLib's Golden Rule 12 needs
+  rewording so a structured marker counts as an accepted hand-off (proposal in
+  `gospelib-mapping.md`). Harnesses that want tickets add a marker sweep.
+- **Supersedes:** none.
+
+## D-004 Naming literals is a judgment, not an exception list (GospeLib INV-1)
+- **Status:** accepted
+- **Date / decided by:** 2026-11-14, Lance (owner)
+- **Context:** GospeLib INV-1 ("no magic value appears inline... there is no third option"), read
+  literally, forces names like `const ONE = 1`. A proposed fix replaced it with a list of exempt
+  literals. The owner rejected both as rigid: sometimes naming a value helps, sometimes it hurts,
+  and a fixed exception list is just another rule.
+- **Decision:** EP-01 governs. Give a value a name when the name carries knowledge a reader needs
+  (which decision it represents, so it can change in one place) and leave it inline when the
+  literal is clearer than any name. Reviewers who ask for a name, or for removing one, say which
+  value is at stake (readability, maintainability). Lint may flag candidates, but its message is a
+  prompt for judgment that cites EP-01, not a verdict.
+- **Consequences:** propose restating INV-1 in GospeLib as this principle rather than an absolute
+  (see `gospelib-mapping.md`); tune any literal lint to warn, not block.
+- **Supersedes:** none.

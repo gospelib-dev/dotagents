@@ -70,3 +70,16 @@ are waiting for the owner and may be refined until decided. Format and process:
 - **Consequences:** propose restating INV-1 in GospeLib as this principle rather than an absolute
   (see `gospelib-mapping.md`); tune any literal lint to warn, not block.
 - **Supersedes:** none.
+
+## D-005 Review checks fit with the live system, not only the pattern
+- **Status:** accepted
+- **Date / decided by:** 2026-11-14, Lance (owner)
+- **Context:** a live test review approved a correct fix while the surrounding script still targeted
+  a retired platform; running it would have undone a migration. Both author and reviewer searched only
+  for repeats of the reported bug pattern.
+- **Decision:** reviewers and fixers check that touched code still matches the system as it runs today
+  (services, auth, configuration, completed migrations and decisions). Stale assumptions are a class
+  finding with all instances listed.
+- **Consequences:** review-protocol section 2 and fix-protocol section 9 gain this step.
+- **Supersedes:** none.
+

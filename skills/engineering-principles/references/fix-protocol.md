@@ -134,6 +134,11 @@ make it an error. If no guard is feasible, say why in the report.
 
 ## 9. Verify
 
+Before you call the class fixed, check that the code you touched still fits the system as it runs
+today, not only the pattern you searched for. Names, settings, endpoints and auth that describe a
+retired setup are a class of their own (see the review protocol, section 2); fix them in the same
+change when they are in scope, or mark them per section 11.
+
 Rerun the project's checks and the guard, and paste the exact commands and results. Rerun your
 widened search to show the true instances are gone. A fix is done when the evidence says so, not
 when the edit is saved.

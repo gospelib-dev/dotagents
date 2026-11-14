@@ -20,7 +20,7 @@ Each folder under `skills/` is one agent type. A profile loads the folders that 
 | --- | --- |
 | `fixing-a-wrong-memory` | you are corrected or find a stored memory is wrong. Delete every copy, save once |
 
-### `engineering/` — agents that write, review, test or ship code (15)
+### `engineering/` — agents that write, review, test or ship code (16)
 
 | Skill | Use when |
 | --- | --- |
@@ -39,6 +39,7 @@ Each folder under `skills/` is one agent type. A profile loads the folders that 
 | `tech-debt-ranking` | producing a recurring ranked, deduped tech-debt backlog. No code edits |
 | `test-lanes-and-coverage` | judging a test suite: lanes, branch-coverage ratchet, perf budgets |
 | `web-accessibility-check` | building, reviewing or accepting UI. WCAG 2.2 AA checks and tools |
+| `work-planning` | a plan or spec is requested, or uncertainty must be resolved before work |
 
 ### `ops/` — agents that triage alerts or inspect infrastructure (2)
 

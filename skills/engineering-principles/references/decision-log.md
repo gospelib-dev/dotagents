@@ -83,3 +83,14 @@ are waiting for the owner and may be refined until decided. Format and process:
 - **Consequences:** review-protocol section 2 and fix-protocol section 9 gain this step.
 - **Supersedes:** none.
 
+## D-006 The live-fit check uses what the repo records
+- **Status:** accepted
+- **Date / decided by:** 2026-11-14, Lance (owner)
+- **Context:** in the next test the reviewer read D-005 as "query the live service", had no credentials,
+  and declined the check. The retirement it should have caught was not recorded in the repo either.
+- **Decision:** the live-fit check uses everything readable (decision records, docs, configuration,
+  history); live access is a bonus, never a precondition. Projects record migrations and retirements in
+  their decision records so the check has evidence.
+- **Consequences:** review-protocol section 2 and fix-protocol section 9 reworded; version 0.2.1.
+- **Supersedes:** none (clarifies D-005).
+

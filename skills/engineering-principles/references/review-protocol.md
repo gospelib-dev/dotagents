@@ -48,8 +48,11 @@ For each touched unit, look at:
   (EP-04, EP-05)? Is there machinery the problem doesn't need (EP-06)?
 - **Its fit with the system as it runs today:** the code a change touches carries assumptions about
   the world: which services exist, how they authenticate, what configuration and names are live,
-  which integrations were retired or replaced. Check those assumptions against current reality (the
-  repo's own docs and decision records, recent migrations, the live configuration you can read). An
+  which integrations were retired or replaced. Check those assumptions against everything you can
+  read: the repo's decision records and docs, its configuration, its recent history, and live state only
+  if you happen to have access. Missing credentials for a live service are never a reason to skip this
+  check, because the repo itself usually records what is current. A decision record, doc or recent
+  change that contradicts the code is evidence the code is stale. An
   approved change that leaves its surrounding code describing a world that no longer exists is not
   done: running that code can silently undo a migration (EP-09, EP-01). Stale assumptions are a
   class: name it ("this module still targets the retired X") and list every instance, not only the

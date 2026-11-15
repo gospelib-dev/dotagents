@@ -4,7 +4,7 @@ description: Use when designing organizing systems for ADHD, sensory or support-
 metadata:
   version: "0.1.0"
   status: draft
-  owner: Lance
+  owner: maintainer
 ---
 
 # Organizing for ADHD and support-needs households

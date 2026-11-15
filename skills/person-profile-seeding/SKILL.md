@@ -4,7 +4,7 @@ description: Use when building or refreshing a person's notes from their read-on
 metadata:
   version: "0.1.0"
   status: draft
-  owner: Lance
+  owner: maintainer
 ---
 
 # Seeding a person's profile from their accounts
@@ -22,9 +22,9 @@ then confirm the most useful observations through a short interview. Observed is
 1. **Read what exists first:** the notes file (may not exist) and prior memory. Interview answers
    already given = Confirmed; facts relayed from household memory = Observed (label the source).
 2. **Check access once:** describe all account tools in one call, then check status (account,
-   scopes, the agent's own folder). Budget about 40 tool calls.
-3. **Keep every result small** (mail ~4 results, files ~6, calendar ~4-7). Oversized results may be
-   archived out of reach; re-run smaller instead of trying to expand them.
+   scopes, the agent's own folder). Set a tool-call budget before starting.
+3. **Keep every result small** enough for your context and output limits; prefer several targeted
+   queries over one large one, and re-run smaller if a result comes back truncated or out of reach.
 4. **Mail: one targeted query per topic**, not one broad dump (broad queries drown in notification
    noise). Templates:
    - personal: `newer_than:90d -category:promotions -category:social -category:updates -category:forums`

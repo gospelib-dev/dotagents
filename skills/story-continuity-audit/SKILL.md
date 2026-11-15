@@ -4,7 +4,7 @@ description: Use when checking story canon/continuity against prose. Cited ledge
 metadata:
   version: "0.1.0"
   status: draft
-  owner: Lance
+  owner: maintainer
 ---
 
 # Story continuity audit

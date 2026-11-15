@@ -4,7 +4,7 @@ description: Use when measuring prose: readability, n-grams, overuse, avoid-list
 metadata:
   version: "0.1.0"
   status: draft
-  owner: Lance
+  owner: maintainer
 ---
 
 # Prose text analysis

@@ -4,7 +4,7 @@ description: Use when clutter work hits sentiment, guilt, family conflict or hoa
 metadata:
   version: "0.1.0"
   status: draft
-  owner: Lance
+  owner: maintainer
 ---
 
 # Clutter, feelings and hoarding safety

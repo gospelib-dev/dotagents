@@ -4,7 +4,7 @@ description: Use when building or verifying DOCX/EPUB from chapters. Inspect rea
 metadata:
   version: "0.1.0"
   status: draft
-  owner: Lance
+  owner: maintainer
 ---
 
 # Manuscript book build and verification

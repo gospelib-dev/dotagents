@@ -4,7 +4,7 @@ description: Use when keeping project docs in step with merged code, or reviewin
 metadata:
   version: "0.1.0"
   status: draft
-  owner: Lance
+  owner: maintainer
 ---
 
 # Docs drift sweep

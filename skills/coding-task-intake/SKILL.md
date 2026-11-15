@@ -4,7 +4,7 @@ description: Use when taking a coding task end to end: intake, build, verify, PR
 metadata:
   version: "0.1.0"
   status: draft
-  owner: Lance
+  owner: maintainer
 ---
 
 # Coding task intake to report

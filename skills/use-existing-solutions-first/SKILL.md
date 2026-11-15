@@ -4,7 +4,7 @@ description: Use always, before building anything. Find the built-in or existing
 metadata:
   version: "1.0.0"
   status: active
-  owner: Lance
+  owner: maintainer
 ---
 
 # Use existing solutions first (never reinvent the wheel)

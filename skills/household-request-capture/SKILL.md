@@ -4,7 +4,7 @@ description: Use when someone asks their assistant to track a chore, home item o
 metadata:
   version: "0.1.0"
   status: draft
-  owner: Lance
+  owner: maintainer
 ---
 
 # Capturing household requests
@@ -42,10 +42,10 @@ themselves.
 - Also create the person's follow-up task (setup/install) so their list stays complete.
 - Name the shared notes file for that area in the request and add only what is new; list what the
   person already said (dimensions, settled decisions) and tell the specialist not to re-ask it.
-- Ask for the needed level of detail in the first request (for organizing: per cabinet/shelf
-  contents, shelf positions from recorded dimensions, a sized and priced shopping list, and a
-  sequence that works when every container is already full; unknown contents -> the specialist asks
-  the shortest text questions instead of guessing).
+- Ask for the level of detail the person needs to act in the first request: an executable plan at
+  the granularity of the request, not an overview (for organizing, a per-unit plan that works even
+  when the space is already full). Unknown facts -> the specialist asks the shortest questions
+  instead of guessing.
 - Relay the result in about 3 lines: recommendation, main risk, one yes/no ask. Credentials are
   always typed by the person, never relayed.
 
@@ -79,7 +79,7 @@ specialist to it. Never relay wrong claims verbatim.
   Fetch large messages in small slices so the item list is visible.
 - Re-order / "still sold?": search the model, read the vendor page, quote its base price (not a
   configured price), say plainly what can't be priced, and offer a drafted quote-request email or
-  web form for the person to send if they avoid phone calls.
+  web form for the person to send when their channel preferences exclude calls.
 - If a tool has no access to something (for example photo libraries), say so and ask the person
   to send it.
 - Expired account authorization: tell the person how to reconnect, retry after they confirm.

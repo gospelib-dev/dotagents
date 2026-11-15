@@ -1,6 +1,6 @@
 # dotagents
 
-Lance's shared, tool-neutral skills for AI agents: generalized methods any agent of a given type can use
+Shared, tool-neutral skills for AI agents: generalized methods any agent of a given type can use
 (any code reviewer, fiction editor, schedule planner...). Project facts stay in each project's own skills;
 those point back here for method.
 
@@ -102,7 +102,7 @@ Grouped in `skills.sh.json` (Hermes shows these as hub categories). Each profile
 | `person-profile-seeding` | building or refreshing a person's notes from their read-only accounts |
 | `smart-home-request-handling` | relaying or doing a request to read or change smart-home devices |
 
-### Lance-facing (1)
+### Owner-facing (1)
 
 | Skill | Use when |
 | --- | --- |
@@ -122,4 +122,4 @@ Grouped in `skills.sh.json` (Hermes shows these as hub categories). Each profile
   "Method: follow the shared `<skill>` skill".
 - Principles with judgment, not rigid rules. Keep sources cited. Under ~12 KB per SKILL.md; depth in `references/`.
 - This repo is public: nothing private, no credentials, no hostnames or internal addresses.
-- Changes arrive by pull request (normal branch + PR); Lance merges. Add new skills to a group in `skills.sh.json`.
+- Changes arrive by pull request (normal branch + PR); the repository owner merges. Add new skills to a group in `skills.sh.json`.

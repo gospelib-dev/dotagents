@@ -4,7 +4,7 @@ description: Use when drafting prose with several models. Fan out, merge.
 metadata:
   version: "0.1.0"
   status: draft
-  owner: Lance
+  owner: maintainer
 ---
 
 # Multi-model drafting

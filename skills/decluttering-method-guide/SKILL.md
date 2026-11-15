@@ -4,7 +4,7 @@ description: Use when choosing a decluttering method, room order, session plan o
 metadata:
   version: "0.1.0"
   status: draft
-  owner: Lance
+  owner: maintainer
 ---
 
 # Decluttering method guide

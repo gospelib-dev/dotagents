@@ -4,7 +4,7 @@ description: Use when building, reviewing or accepting UI. WCAG 2.2 AA checks an
 metadata:
   version: "0.1.0"
   status: draft
-  owner: Lance
+  owner: maintainer
 ---
 
 # Web accessibility check (WCAG 2.2 AA)

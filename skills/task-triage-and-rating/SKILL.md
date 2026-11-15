@@ -4,7 +4,7 @@ description: Use when capturing, rating, ranking or breaking down tasks, incl. f
 metadata:
   version: "0.1.0"
   status: draft
-  owner: Lance
+  owner: maintainer
 ---
 
 # Task triage and rating (ADHD-aware task management)

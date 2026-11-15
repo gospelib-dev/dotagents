@@ -4,7 +4,7 @@ description: Use when an assistant owns a person's calendar and must plan, mirro
 metadata:
   version: "0.1.0"
   status: draft
-  owner: Lance
+  owner: maintainer
 ---
 
 # Owned-calendar stewardship
@@ -79,8 +79,8 @@ nothing private. Old memories of a different convention lose to the current doc.
 - Look up real opening hours and put the address in the location.
 - Order stops the way the person does them, include travel and put-away time, and plan meals and
   drive time before an errand rather than squeezing it into a gap.
-- Rearrange surrounding boxes in the same turn instead of overlapping; merge fragments (one bill
-  box per day, not many 15-minute pieces).
+- Rearrange surrounding boxes in the same turn instead of overlapping, and consolidate fragments
+  into whole boxes; follow the household's conventions doc for box rules.
 - Routines the person states (get-ready windows, bedtimes, deadlines) become their own boxes; move
   colliding boxes and tell the person the new times.
 - Before keeping a task box, check it against what the person said is done; delete stale boxes on
@@ -96,8 +96,8 @@ nothing private. Old memories of a different convention lose to the current doc.
 - A follow-up that is not for tomorrow goes to the task list with no date, never onto a box.
 
 ## Pitfalls
-- Timezone and clock bugs: pass an explicit timezone with local times; if the API wants 24-hour
-  digits, 04:30 is 4:30 AM. Re-list after writing to confirm nothing landed at the wrong hour.
+- Timezone and clock bugs: pass an explicit timezone, and verify every write by re-listing the day
+  in local time before reporting it done.
 - Large listings that are truncated or doubled, making later days look missing or duplicated.
 - Answering "not mine to delete" or handing the person cleanup chores.
 - Accepting invites or setting RSVPs on outline/placeholder events when the conventions forbid it.

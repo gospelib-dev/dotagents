@@ -4,7 +4,7 @@ description: Use when organizing a specific room or zone, or when storage safety
 metadata:
   version: "0.1.0"
   status: draft
-  owner: Lance
+  owner: maintainer
 ---
 
 # Room-by-room organizing playbooks

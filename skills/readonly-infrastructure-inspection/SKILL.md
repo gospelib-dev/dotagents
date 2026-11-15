@@ -4,7 +4,7 @@ description: Use when inspecting servers, storage, backups or networks with read
 metadata:
   version: "0.1.0"
   status: draft
-  owner: Lance
+  owner: maintainer
 ---
 
 # Read-only infrastructure inspection

@@ -4,7 +4,7 @@ description: Use when setting up a home paper flow, record retention, scanning o
 metadata:
   version: "0.1.0"
   status: draft
-  owner: Lance
+  owner: maintainer
 ---
 
 # Household paper flow and records

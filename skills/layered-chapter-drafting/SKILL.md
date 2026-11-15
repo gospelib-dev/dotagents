@@ -4,7 +4,7 @@ description: Use when drafting a chapter from an outline. Brief, layered passes,
 metadata:
   version: "0.2.0"
   status: draft
-  owner: Lance
+  owner: maintainer
 ---
 
 # Layered chapter drafting

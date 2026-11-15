@@ -4,7 +4,7 @@ description: Use when drafting or revising fiction scenes. Outside-in craft test
 metadata:
   version: "0.1.0"
   status: draft
-  owner: Lance
+  owner: maintainer
 ---
 
 # Fiction prose craft

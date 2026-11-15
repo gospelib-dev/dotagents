@@ -4,7 +4,7 @@ description: Use when an alert webhook wakes you. Dedupe by fingerprint, diagnos
 metadata:
   version: "0.1.0"
   status: draft
-  owner: Lance
+  owner: maintainer
 ---
 
 # Alert triage

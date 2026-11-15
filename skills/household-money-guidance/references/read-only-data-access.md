@@ -1,6 +1,6 @@
 # Read-only bank data for an agent (choosing and configuring)
 
-Researched 2026-11-11 (US household). Re-verify vendor terms before relying on them.
+US household context. Vendor terms change; verify them at decision time.
 
 ## Principles
 - **Order of preference:** an official read-only API or MCP server from the provider the household
@@ -17,19 +17,25 @@ Researched 2026-11-11 (US household). Re-verify vendor terms before relying on t
 - **Avoid** unofficial, credential-based APIs (email + password + MFA secret through a
   reverse-engineered API) and stale forks superseded by an official server.
 
-## Options seen (2026-11)
-| Option | Type | Read-only? | Notes |
-|---|---|---|---|
-| A budgeting/banking provider's official API + remote MCP | official | yes, with viewer role or read scopes | best when the household already uses it |
-| SimpleFIN Bridge (~$15/yr) | official protocol | read-only by design | daily updates via an aggregator, ~90 days history, no bills object; community MCP/CLI wrappers immature |
-| Actual Budget + actual-mcp | community OSS, self-hosted | read-only unless started with a write flag | "schedules" model recurring bills; needs hosting |
-| Firefly III + MCP | community OSS | not read-only by default; token gives full API | MCP server stale at research time |
-| YNAB API + community MCP | official API | token is unscoped (read/write) | requires adopting YNAB |
-| Monarch Money unofficial API | unofficial | write tools exposed | credential-based, breaks on API changes; not recommended |
-| Plaid / Teller | official developer APIs | read products exist | custom build: own app, link flow, token storage, mTLS (Teller) |
+## Vetting a current option
+Options and their terms change; search for current ones at decision time (the provider the
+household already uses first, then open-source self-hosted tools and their MCP servers, then
+developer aggregators) and judge each on:
 
-Sources: https://www.simplefin.org/protocol.html ; https://actualbudget.org/docs/advanced/bank-sync/simplefin ;
-https://github.com/actualbudget/actual ; https://github.com/s-stefanov/actual-mcp ;
-https://docs.firefly-iii.org/how-to/data-importer/import/simplefin/ ; https://api.ynab.com/ ;
-https://github.com/calebl/ynab-mcp-server ; https://github.com/hammem/monarchmoney ;
-https://plaid.com/docs/account/billing/ ; https://teller.io/docs/guides/environments/
+| Criterion | What to check |
+|---|---|
+| Source | Official API or protocol from the provider, community open source, fork, or unofficial reverse-engineered API (avoid the last) |
+| Read-only scope | Can access be limited to reading (viewer role, read scopes, server started without a write flag)? Is the token unscoped? |
+| Credentials | Token or OAuth stored in the vault vs. email + password + MFA secret (avoid) |
+| Data | Update frequency, history depth, whether linked external accounts lag, whether bills/recurring items exist as objects |
+| Maintenance | Recent commits and releases, open issues, whether an official server has superseded it |
+| Cost and hosting | Current price from the vendor's own page (dated), and whether it needs a host to run |
+| Adoption cost | Does it require the household to switch budgeting tools? |
+
+Record the options compared, the date checked and the source links in the answer, not in this
+skill.
+
+Example categories to search: a budgeting/banking provider's official API or remote MCP server;
+read-only aggregation protocols (e.g. SimpleFIN); self-hosted budgeting apps with MCP servers
+(e.g. Actual Budget, Firefly III); budgeting-service APIs (e.g. YNAB); developer aggregators (e.g.
+Plaid, Teller), which mean a custom build.

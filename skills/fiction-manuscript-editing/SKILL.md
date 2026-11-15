@@ -4,7 +4,7 @@ description: Use when editing fiction: developmental, line, copy. Staged passes,
 metadata:
   version: "0.1.0"
   status: draft
-  owner: Lance
+  owner: maintainer
 ---
 
 # Fiction manuscript editing

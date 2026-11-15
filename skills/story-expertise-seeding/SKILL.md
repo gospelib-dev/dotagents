@@ -4,7 +4,7 @@ description: Use when a book-team agent must build cited story and field experti
 metadata:
   version: "0.1.0"
   status: draft
-  owner: Lance
+  owner: maintainer
 ---
 
 # Story and field expertise seeding

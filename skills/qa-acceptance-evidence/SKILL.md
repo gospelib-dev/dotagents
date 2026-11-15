@@ -4,7 +4,7 @@ description: Use when QA-accepting a change. Oracle, risk-ranked tests, evidence
 metadata:
   version: "0.1.0"
   status: draft
-  owner: Lance
+  owner: maintainer
 ---
 
 # QA acceptance evidence

@@ -4,7 +4,7 @@ description: Use when running an evening check-in, a reflection or a goal review
 metadata:
   version: "0.1.0"
   status: draft
-  owner: Lance
+  owner: maintainer
 ---
 
 # Evening check-in, reflection and goals

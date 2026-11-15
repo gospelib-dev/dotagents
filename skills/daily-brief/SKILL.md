@@ -4,7 +4,7 @@ description: Use when writing a person's morning brief or building today's plan 
 metadata:
   version: "0.1.0"
   status: draft
-  owner: Lance
+  owner: maintainer
 ---
 
 # Daily brief

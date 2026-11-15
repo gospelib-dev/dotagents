@@ -4,7 +4,7 @@ description: Use when planning a book's editing/publishing pipeline. Stages, gat
 metadata:
   version: "0.1.0"
   status: draft
-  owner: Lance
+  owner: maintainer
 ---
 
 # Editorial production management

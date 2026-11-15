@@ -1,6 +1,11 @@
-# Router line for a project's AGENTS.md
+# Pointer line for a project's AGENTS.md
 
-Add one line near the top of a repo's root `AGENTS.md` instead of restating shared principles:
+Add this near the top of a repo's root `AGENTS.md` (create the file if the repo has none) instead of restating
+shared principles:
 
-> Coding, review and fixing follow the shared `engineering-principles` skill (dotagents). This
-> file's project rules apply those principles here; where they conflict, raise it with the owner.
+> Shared agent skills live in [lellimecnar/dotagents](https://github.com/lellimecnar/dotagents) (`skills/`).
+> Every agent follows `use-existing-solutions-first`; coding, review and fixing follow `engineering-principles`.
+> The rules in this file apply those skills to this project; where they conflict, raise it with the owner.
+
+Hermes agents already have these skills installed from the dotagents tap. Other harnesses (Claude Code, Codex,
+OpenCode) can load them from the repo's `skills/` folder.

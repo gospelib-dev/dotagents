@@ -4,7 +4,7 @@ description: Use when building or reviewing a loopback/local web app. Boundaries
 metadata:
   version: "0.1.0"
   status: draft
-  owner: Lance
+  owner: maintainer
 ---
 
 # Local web app hardening

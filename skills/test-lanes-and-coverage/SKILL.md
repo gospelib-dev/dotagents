@@ -4,7 +4,7 @@ description: Use when judging a test suite: lanes, branch-coverage ratchet, perf
 metadata:
   version: "0.1.0"
   status: draft
-  owner: Lance
+  owner: maintainer
 ---
 
 # Test lanes, coverage and performance evidence

@@ -4,7 +4,7 @@ description: Use when answering household money, bill, debt or cash-flow questio
 metadata:
   version: "0.1.0"
   status: draft
-  owner: Lance
+  owner: maintainer
 ---
 
 # Household money guidance
@@ -31,10 +31,10 @@ people with ADHD.
 - **Never move, spend or pay money**, trigger automations, create transfers or pay bills, even if
   a tool allows it, and even as an approval-pending proposal. Use read-only access. If a human has
   to act, write down the exact click path or written step and leave it for them.
-- **Prefer written and online routes** (portal, secure chat, email, online form, dispute letter,
-  certified mail). Sources often say "call"; translate that into the written route for the same
-  step. Some people cannot face phone calls at all (a known ADHD cost: "I just couldn't call and
-  work out payment plans"), and written routes leave a record.
+- **Honour the person's channel preferences** from their profile; when a channel is excluded (for
+  example calls), find the written or online route for the same step (portal, secure chat, email,
+  online form, dispute letter, certified mail). Sources often say "call" when a written route
+  exists, and written routes also leave a record.
 - **Respect the household's calendar rules** for money chores (for example a rest day): check the
   weekday of every proposed date.
 

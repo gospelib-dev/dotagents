@@ -4,7 +4,7 @@ description: Use when relaying or doing a request to read or change smart-home d
 metadata:
   version: "0.1.0"
   status: draft
-  owner: Lance
+  owner: maintainer
 ---
 
 # Smart-home request handling

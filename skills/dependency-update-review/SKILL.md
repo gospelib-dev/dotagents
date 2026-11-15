@@ -4,7 +4,7 @@ description: Use when triaging bot dependency PRs or lockfile changes. Reconcile
 metadata:
   version: "0.1.0"
   status: draft
-  owner: Lance
+  owner: maintainer
 ---
 
 # Dependency update review

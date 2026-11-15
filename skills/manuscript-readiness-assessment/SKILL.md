@@ -4,7 +4,7 @@ description: Use when judging if a chapter is publish-ready. Full rubric, ranked
 metadata:
   version: "0.1.0"
   status: draft
-  owner: Lance
+  owner: maintainer
 ---
 
 # Manuscript readiness assessment

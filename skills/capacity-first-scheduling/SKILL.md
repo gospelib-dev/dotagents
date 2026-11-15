@@ -4,7 +4,7 @@ description: Use when building or repairing a week or day of time boxes, ADHD-aw
 metadata:
   version: "0.1.0"
   status: draft
-  owner: Lance
+  owner: maintainer
 ---
 
 # Capacity-first scheduling (ADHD-aware time boxing)

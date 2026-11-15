@@ -9,7 +9,7 @@ are waiting for the owner and may be refined until decided. Format and process:
 
 ## D-001 Principles over decrees
 - **Status:** accepted
-- **Date / decided by:** 2026-11-14, Lance (owner)
+- **Date / decided by:** 2026-11-14, owner
 - **Context:** Agent instructions across the fleet had grown into lists of if/then rules, often in
   capitals, with little explanation. Agents followed their letter, missed their intent, and had no
   way to handle cases the rules didn't anticipate. Contradictions crept in between rule sets.
@@ -19,13 +19,13 @@ are waiting for the owner and may be refined until decided. Format and process:
   are mapped to principles.
 - **Consequences:** Agents are expected to exercise judgment and to explain it. Reviewers must cite
   a principle or project rule for every finding. Machine checks remain welcome, but each one names
-  the principle it serves. Existing rule sets (for example the GospeLib integrity standard) should
-  be reframed around their principles over time; see [gospelib-mapping.md](gospelib-mapping.md).
+  the principle it serves. Existing project rule sets (for example a repo's integrity standard) should
+  be reframed around their principles over time; see [project-mapping.md](project-mapping.md).
 - **Supersedes:** none.
 
 ## D-002 Findings are classes
 - **Status:** accepted
-- **Date / decided by:** 2026-11-14, Lance (owner)
+- **Date / decided by:** 2026-11-14, owner
 - **Context:** Fixes for review comments tended to change the quoted line only. The same class of
   problem stayed elsewhere and came back in later reviews; agents copied the uncorrected instances.
 - **Decision:** A review finding, bug or lint error is treated as evidence of a violated principle.
@@ -40,9 +40,9 @@ are waiting for the owner and may be refined until decided. Format and process:
 
 ## D-003 Out-of-scope instances are marked with a structured `@todo`
 - **Status:** accepted
-- **Date / decided by:** 2026-11-14, Lance (owner)
-- **Context:** GospeLib's integrity standard (BS-1/BS-2) hands off out-of-scope or risky fixes with a
-  `@todo:` comment, while its `AGENTS.md` Golden Rule 12 forbids deferring without owner sign-off.
+- **Date / decided by:** 2026-11-14, owner
+- **Context:** a project's integrity standard handed off out-of-scope or risky fixes with a
+  `@todo:` comment, while another of its rules forbade deferring without owner sign-off.
   An alternative that routed every such finding to the owner through a task card was rejected as
   too tied to one harness.
 - **Decision:** a fixer or author who cannot safely fix an instance within the change's scope leaves
@@ -50,16 +50,16 @@ are waiting for the owner and may be refined until decided. Format and process:
   project's tooling, whatever it is, may collect markers on a schedule and turn them into tickets.
   Markers are precise descriptions of owed work, written for a reader who has never seen the PR;
   known instances are never left unmarked.
-- **Consequences:** the fix and review protocols use the marker; GospeLib's Golden Rule 12 needs
-  rewording so a structured marker counts as an accepted hand-off (proposal in
-  `gospelib-mapping.md`). Harnesses that want tickets add a marker sweep.
+- **Consequences:** the fix and review protocols use the marker; project rules that forbid deferral
+  should be reworded so a structured marker counts as an accepted hand-off (see
+  `project-mapping.md`). Harnesses that want tickets add a marker sweep.
 - **Supersedes:** none.
 
-## D-004 Naming literals is a judgment, not an exception list (GospeLib INV-1)
+## D-004 Naming literals is a judgment, not an exception list
 - **Status:** accepted
-- **Date / decided by:** 2026-11-14, Lance (owner)
-- **Context:** GospeLib INV-1 ("no magic value appears inline... there is no third option"), read
-  literally, forces names like `const ONE = 1`. A proposed fix replaced it with a list of exempt
+- **Date / decided by:** 2026-11-14, owner
+- **Context:** a project's literal-naming invariant ("no magic value appears inline... there is no
+  third option"), read literally, forces names like `const ONE = 1`. A proposed fix replaced it with a list of exempt
   literals. The owner rejected both as rigid: sometimes naming a value helps, sometimes it hurts,
   and a fixed exception list is just another rule.
 - **Decision:** EP-01 governs. Give a value a name when the name carries knowledge a reader needs
@@ -67,13 +67,13 @@ are waiting for the owner and may be refined until decided. Format and process:
   literal is clearer than any name. Reviewers who ask for a name, or for removing one, say which
   value is at stake (readability, maintainability). Lint may flag candidates, but its message is a
   prompt for judgment that cites EP-01, not a verdict.
-- **Consequences:** propose restating INV-1 in GospeLib as this principle rather than an absolute
-  (see `gospelib-mapping.md`); tune any literal lint to warn, not block.
+- **Consequences:** propose restating such project invariants as this principle rather than an
+  absolute (see `project-mapping.md`); tune any literal lint to warn, not block.
 - **Supersedes:** none.
 
 ## D-005 Review checks fit with the live system, not only the pattern
 - **Status:** accepted
-- **Date / decided by:** 2026-11-14, Lance (owner)
+- **Date / decided by:** 2026-11-14, owner
 - **Context:** a live test review approved a correct fix while the surrounding script still targeted
   a retired platform; running it would have undone a migration. Both author and reviewer searched only
   for repeats of the reported bug pattern.
@@ -85,7 +85,7 @@ are waiting for the owner and may be refined until decided. Format and process:
 
 ## D-006 The live-fit check uses what the repo records
 - **Status:** accepted
-- **Date / decided by:** 2026-11-14, Lance (owner)
+- **Date / decided by:** 2026-11-14, owner
 - **Context:** in the next test the reviewer read D-005 as "query the live service", had no credentials,
   and declined the check. The retirement it should have caught was not recorded in the repo either.
 - **Decision:** the live-fit check uses everything readable (decision records, docs, configuration,

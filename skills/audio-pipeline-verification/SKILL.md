@@ -4,7 +4,7 @@ description: Use when building or reviewing TTS/audio render or export. Measure,
 metadata:
   version: "0.1.0"
   status: draft
-  owner: Lance
+  owner: maintainer
 ---
 
 # Audio pipeline verification

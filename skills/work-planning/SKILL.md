@@ -4,7 +4,7 @@ description: Use when a plan or spec is requested, or uncertainty must be resolv
 metadata:
   version: "0.1.0"
   status: draft
-  owner: Lance
+  owner: maintainer
 ---
 
 # Work planning

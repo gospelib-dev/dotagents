@@ -4,7 +4,7 @@ description: Use when producing a recurring ranked, deduped tech-debt backlog. N
 metadata:
   version: "0.1.0"
   status: draft
-  owner: Lance
+  owner: maintainer
 ---
 
 # Tech-debt ranking

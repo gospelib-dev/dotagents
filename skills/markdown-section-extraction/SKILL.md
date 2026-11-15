@@ -4,7 +4,7 @@ description: Use when pulling sections from big markdown files by heading. Scrip
 metadata:
   version: "0.1.0"
   status: draft
-  owner: Lance
+  owner: maintainer
 ---
 
 # Markdown section extraction

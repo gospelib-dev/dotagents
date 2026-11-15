@@ -4,7 +4,7 @@ description: Use when checking a manuscript for copied text or derivative concep
 metadata:
   version: "0.1.0"
   status: draft
-  owner: Lance
+  owner: maintainer
 ---
 
 # Originality check for manuscripts

@@ -116,7 +116,7 @@ Editorial fixes (typos, a clearer sentence with the same meaning) need no entry.
 
 - **Any agent** may propose a change: open a PR against the repository that holds this skill, with
   the edit and a decision-log entry, and explain which findings motivated it.
-- **The owner** (Lance) reviews and merges. A proposal is not in force until merged.
+- **The repository owner** reviews and merges. A proposal is not in force until merged.
 - **Agents do not edit the installed copy** of this skill in place (for example with a skill-editing
   tool), even if their runtime would allow it. An in-place edit drifts from the shared source and
   silently changes the rules for one agent only.

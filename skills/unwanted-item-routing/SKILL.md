@@ -4,7 +4,7 @@ description: Use when deciding if an unwanted item is sold, donated, recycled or
 metadata:
   version: "0.1.0"
   status: draft
-  owner: Lance
+  owner: maintainer
 ---
 
 # Routing unwanted household items
@@ -54,8 +54,8 @@ donations go to die. (judgment)
   platform before quoting.
 - Safety: meet local buyers in public (police-station lots are common; confirm locally), no checks,
   no overpayment schemes, release items only after payment clears.
-- Tax [IRS 1099-K FAQ; Topic 506]: federal marketplace reporting applies only above $20,000 and 200
-  transactions (a state may be lower); payments are taxable unless the law says otherwise; subtract
+- Tax [IRS 1099-K FAQ; Topic 506]: marketplaces report sales to the IRS above a threshold that has
+  changed repeatedly; check the IRS 1099-K FAQ for the current one (a state may be lower); payments are taxable unless the law says otherwise; subtract
   fees and shipping; selling a personal item for less than you paid is not taxable income (IRS
   search summary). Keep purchase records for anything sold at a gain.
 - Consignment/buy-sell stores pay cash or credit, reject much, and want seasonal timing; call ahead.

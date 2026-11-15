@@ -4,7 +4,7 @@ description: Use when grooming a backlog: one state per item, verify claims, own
 metadata:
   version: "0.1.0"
   status: draft
-  owner: Lance
+  owner: maintainer
 ---
 
 # Backlog grooming

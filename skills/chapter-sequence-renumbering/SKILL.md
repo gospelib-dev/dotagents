@@ -4,7 +4,7 @@ description: Use when chapters are added, removed, merged or split. Safe renames
 metadata:
   version: "0.1.0"
   status: draft
-  owner: Lance
+  owner: maintainer
 ---
 
 # Chapter sequence renumbering

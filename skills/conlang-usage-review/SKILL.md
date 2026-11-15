@@ -4,7 +4,7 @@ description: Use when reviewing invented-language use in fiction. Form, meaning,
 metadata:
   version: "0.1.0"
   status: draft
-  owner: Lance
+  owner: maintainer
 ---
 
 # Constructed-language usage review

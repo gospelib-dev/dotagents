@@ -4,7 +4,7 @@ description: Use when you are corrected or find a stored memory is wrong. Delete
 metadata:
   version: "0.1.0"
   status: draft
-  owner: Lance
+  owner: maintainer
 ---
 
 # Fixing a wrong memory

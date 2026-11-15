@@ -4,7 +4,7 @@ description: Use when mapping an in-flight initiative into proposed tracker task
 metadata:
   version: "0.1.0"
   status: draft
-  owner: Lance
+  owner: maintainer
 ---
 
 # Initiative inventory mapping

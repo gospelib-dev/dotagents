@@ -4,7 +4,7 @@ description: Use when reporting household spending, income or balances to the ex
 metadata:
   version: "0.1.0"
   status: draft
-  owner: Lance
+  owner: maintainer
 ---
 
 # Reconciled household spending reports

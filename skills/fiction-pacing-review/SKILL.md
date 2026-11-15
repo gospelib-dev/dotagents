@@ -4,7 +4,7 @@ description: Use when reviewing fiction pacing, structure, tension or hooks. Dia
 metadata:
   version: "0.1.0"
   status: draft
-  owner: Lance
+  owner: maintainer
 ---
 
 # Fiction pacing and structure review

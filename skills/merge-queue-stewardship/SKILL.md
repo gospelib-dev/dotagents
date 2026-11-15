@@ -4,7 +4,7 @@ description: Use when admitting approved PRs to a merge queue or checking trains
 metadata:
   version: "0.1.0"
   status: draft
-  owner: Lance
+  owner: maintainer
 ---
 
 # Merge queue and release-train stewardship

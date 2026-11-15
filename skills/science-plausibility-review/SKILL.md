@@ -4,7 +4,7 @@ description: Use when reviewing science/tech plausibility in fiction. Smallest f
 metadata:
   version: "0.1.0"
   status: draft
-  owner: Lance
+  owner: maintainer
 ---
 
 # Science plausibility review for fiction

@@ -4,7 +4,7 @@ description: Use when reviewing dialogue, character voice or relationship beats 
 metadata:
   version: "0.1.0"
   status: draft
-  owner: Lance
+  owner: maintainer
 ---
 
 # Dialogue and character-voice review

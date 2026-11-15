@@ -4,7 +4,7 @@ description: Use when writing, reviewing or fixing code. Principles plus review 
 metadata:
   version: "0.2.1"
   status: draft
-  owner: Lance
+  owner: maintainer
 ---
 
 # Engineering principles
@@ -12,7 +12,7 @@ metadata:
 One shared set of coding principles for every agent that writes, reviews or fixes code, in any
 tool, harness or repository. It tells you what good code protects and why, so you can make the
 right call in situations no rule anticipated. It is deliberately short. Project-specific rules
-(GospeLib `INV-*`, a repo's ports, branch names, tooling) live in that repo's own `AGENTS.md`; when
+(a repo's invariants, ports, branch names, tooling) live in that repo's own `AGENTS.md`; when
 you work in a repo, read them too and treat them as binding *project rules* that apply these
 principles locally.
 
@@ -172,7 +172,7 @@ entry states what it protects so you can judge the case in front of you. Example
 - [references/fix-protocol.md](references/fix-protocol.md): fixer procedure for treating findings as classes.
 - [references/authoring.md](references/authoring.md): how this document changes, and who may change it.
 - [references/decision-log.md](references/decision-log.md): decisions about the principles, append and supersede only.
-- [references/gospelib-mapping.md](references/gospelib-mapping.md): GospeLib project rules mapped to EP IDs, and the gaps.
+- [references/project-mapping.md](references/project-mapping.md): how to map a project's own rules to EP IDs, and find the gaps.
 
 ## Credits
 

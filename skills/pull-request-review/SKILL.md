@@ -4,7 +4,7 @@ description: Use when reviewing another agent's PR. Verify claims, pin head, one
 metadata:
   version: "0.1.0"
   status: draft
-  owner: Lance
+  owner: maintainer
 ---
 
 # Pull request review (verifying reviewer)

@@ -93,6 +93,23 @@
       ]
     },
     {
+      "title": "Household specialists",
+      "skills": [
+        "accessible-family-trips",
+        "exercise-coaching",
+        "family-meal-planning",
+        "owner-builder-remodeling",
+        "relationship-kindness-coaching"
+      ]
+    },
+    {
+      "title": "Research & business",
+      "skills": [
+        "bootstrapped-product-revenue",
+        "research-and-fact-checking"
+      ]
+    },
+    {
       "title": "Lance-facing",
       "skills": [
         "i-have-adhd"

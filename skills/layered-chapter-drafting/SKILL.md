@@ -2,7 +2,7 @@
 name: layered-chapter-drafting
 description: Use when drafting a chapter from an outline. Brief, layered passes, gates.
 metadata:
-  version: "0.1.0"
+  version: "0.2.0"
   status: draft
   owner: Lance
 ---
@@ -72,6 +72,13 @@ one-line status. Orchestrators coordinate and do not load story files into their
    reflection), readability targets and word-count target. If under target, do not pad: flag it.
    - **Gate C (compliance):** run the analyzer (`prose-text-analysis`), the avoid-list and quota checks,
      and invented-language validation if applicable.
+
+## Multi-model variant
+
+When several drafting models are available, the prose-generating work (a full draft from the brief, or the
+voice and atmosphere passes 3-4) can fan out to them and be merged, following `multi-model-drafting`. The
+merged text then goes back through Gate B (facts) before Polish: merging can introduce errors as well as
+remove them.
 
 ## Gate failure protocol
 

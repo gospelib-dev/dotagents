@@ -24,9 +24,9 @@ Stop at the evidence summary and name the professional when the question needs:
 These categories are standard practice; the specific routes vary by state, so verify the current page
 before pointing anyone to it.
 
-## Household rule reminder
-Some households have a member who must not be handed a phone call. Look for the written route; if a
-process truly appears phone-only, say so plainly and suggest who else could make the call.
+## Channel preferences
+Honour the person's channel preferences from their profile; when a channel is excluded, find the written route. If a process truly needs an excluded channel, say so plainly and suggest who
+else could use it.
 
 ## Sources
 1. UC Irvine Emergency Management, "Text to 9-1-1" (summarising FCC guidance). https://em.uci.edu/be-informed-be-prepared/text-to-9-1-1.php ; FCC guide: https://www.fcc.gov/consumers/guides/what-you-need-know-about-text-911

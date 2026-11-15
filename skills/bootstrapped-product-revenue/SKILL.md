@@ -4,7 +4,7 @@ description: Use when advising a solo founder on revenue. First payers.
 metadata:
   version: "0.1.0"
   status: draft
-  owner: Lance
+  owner: maintainer
 ---
 
 # Bootstrapping a solo software product to revenue

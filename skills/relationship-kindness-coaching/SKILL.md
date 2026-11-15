@@ -4,7 +4,7 @@ description: Use when coaching kindness, repair or dates. Not therapy.
 metadata:
   version: "0.1.0"
   status: draft
-  owner: Lance
+  owner: maintainer
 ---
 
 # Relationship kindness coaching (evidence-based coaching, not therapy)

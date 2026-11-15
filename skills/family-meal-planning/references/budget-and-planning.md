@@ -1,18 +1,13 @@
 # Budget and planning reference
 
 ## Budget benchmark: USDA Food Plans
-Source: USDA Food Plans, Monthly Cost of Food Reports, https://www.fna.usda.gov/research/cnpp/usda-food-plans/cost-food-monthly-reports ; Thrifty Food Plan September 2026 PDF, https://www.fna.usda.gov/sites/default/files/resource-files/CostofFoodSep2026Thrifty.pdf
-- Four plans: Thrifty, Low-Cost, Moderate-Cost, Liberal. All assume every meal and snack is prepared at home (Thrifty PDF).
-- Costs are per person by age and sex, for people in 4-person households. To get a household total: (1) add each person's cost, then (2) adjust for size: 1 person +20%, 2 +10%, 3 +5%, 4 none, **5 or 6 people −5%**, 7 or more −10% (Thrifty PDF footnote).
-- Monthly = weekly x 4.333 (Thrifty PDF).
-- Thrifty Food Plan, September 2026 weekly costs (issued October 2026; re-check the latest month before quoting):
-
-| Group | Weekly |
-|---|---|
-| Child 1 yr / 2–3 / 4–5 / 6–8 / 9–11 | $26.30 / $39.80 / $43.40 / $48.30 / $55.80 |
-| Female 12–13 / 14–19 / 20–50 / 51–70 / 71+ | $51.70 / $60.00 / $58.60 / $54.60 / $60.10 |
-| Male 12–13 / 14–19 / 20–50 / 51–70 / 71+ | $59.70 / $75.30 / $73.60 / $64.90 / $61.90 |
-| Reference family of 4 (M+F 20–50, children 6–8 and 9–11) | $236.30 ($1,024.00/month) |
+Source: USDA Food Plans, Monthly Cost of Food Reports, https://www.fna.usda.gov/research/cnpp/usda-food-plans/cost-food-monthly-reports
+- Four plans: Thrifty, Low-Cost, Moderate-Cost, Liberal. All assume every meal and snack is prepared at home (monthly report).
+- Costs are per person by age and sex, for people in 4-person households. To get a household total: (1) add each person's cost, then (2) adjust for size: 1 person +20%, 2 +10%, 3 +5%, 4 none, **5 or 6 people −5%**, 7 or more −10% (monthly report footnote).
+- Monthly = weekly x 4.333 (monthly report).
+- Current costs: download the latest monthly Cost of Food report from the source page above before
+  quoting; read each person's weekly cost by age and sex, apply the method above, and state the
+  report month used.
 
 - Use: "tight budget" means planning at or below the household's Thrifty total; a plan that needs more should say so and say why.
 

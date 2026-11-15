@@ -31,19 +31,21 @@ SBA: converting later is possible but may have restrictions and tax consequences
 - EIN is free from the IRS online and issued immediately if approved; "You never have to pay a fee for an EIN." The online session expires after 15 minutes of inactivity [EIN].
 - A single-member disregarded LLC with no employees and no excise tax liability does not need an EIN for federal tax purposes; it uses the owner's TIN; but "most new single-member LLCs" will need one for employment/excise purposes or other reasons [SMLLC]. Banks commonly ask for one; SBA says you can open a business bank account once you have your EIN [SBA].
 - SBA: open a business bank account as soon as you start accepting or spending money as the business; it keeps business and personal funds separate [SBA].
-- FinCEN BOI (updated Aug 11, 2026): U.S. companies are exempt from BOI reporting [BOI]. Ignore services that charge to file BOI for a U.S. company.
+- FinCEN BOI: reporting requirements for U.S. companies have changed; check FinCEN's BOI page for the current rule before paying any service to file [BOI].
 
-## Federal tax facts [SE][EST][HO][1099K]
-| Item | Figure | Source |
+## Federal tax concepts [SE][EST][HO][1099K]
+Figures (rates, wage bases, thresholds, limits) change by tax year. Look each one up on the cited
+IRS page for the tax year in question and state the year in the answer.
+
+| Concept | What it means | Current figure |
 |---|---|---|
-| Self-employment tax rate | 15.3% (12.4% Social Security + 2.9% Medicare), via Schedule SE | [SE] |
-| Social Security wage base 2026 | First $184,500 of combined wages and net earnings | [SE] |
-| Additional Medicare tax | 0.9% above $250,000 MFJ / $200,000 single | [SE] |
+| Self-employment tax | Social Security + Medicare on net self-employment earnings, via Schedule SE; Social Security applies only up to an annual wage base shared with W-2 wages | Schedule SE instructions [SE] |
+| Additional Medicare tax | Extra Medicare tax above a filing-status threshold | Schedule SE / Form 8959 [SE] |
 | Deduction | Employer-equivalent half of SE tax is deductible in figuring AGI | [SE] |
-| Estimated tax trigger | Generally required only if BOTH: (a) you expect to owe at least $1,000 after withholding and refundable credits, AND (b) withholding and refundable credits will be less than the smaller of 90% of current-year tax or 100% of prior-year tax (110% if prior-year AGI was over $150,000, $75,000 MFS). Special rules apply (e.g. farmers/fishermen, no prior-year liability). Work it through Form 1040-ES / Publication 505; penalties can apply for underpaying or paying late | [EST][ESTI] |
-| Home office (simplified) | $5 per square foot, maximum 300 square feet; requires regular and exclusive use and principal place of business | [HO] |
-| Form 1099-K | Platforms report when payments exceed $20,000 in more than 200 transactions; may send for less. All business income must be reported regardless | [1099K] |
-SE tax filing threshold ($400 net earnings) is commonly cited; not verified on a page fetched for this skill; confirm on the Schedule SE instructions.
+| Estimated tax trigger | Required when expected tax owed after withholding passes a threshold AND withholding falls short of a safe-harbor share of current- or prior-year tax (higher share for higher prior-year AGI); special rules apply. Work it through Form 1040-ES / Publication 505; penalties can apply for underpaying or paying late | Pub 505 [EST][ESTI] |
+| Home office (simplified method) | Per-square-foot rate up to a maximum area; requires regular and exclusive use and principal place of business | [HO] |
+| Form 1099-K | Platforms report payments above a threshold that has changed repeatedly, and may send one for less. All business income must be reported regardless | IRS 1099-K FAQ [1099K] |
+| SE tax filing threshold | Minimum net earnings that require Schedule SE | Schedule SE instructions |
 
 ## Hobby vs business [HOB]
 IRS factors include: businesslike manner with complete books; time and effort showing intent to profit; dependence on the income; changing methods to improve profitability; losses normal for the startup phase. "No one factor is more important than another." The page is marked archival; confirm current rules with a professional. Practical step: keep books from the first dollar.

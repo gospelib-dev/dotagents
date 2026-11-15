@@ -1,30 +1,31 @@
 # Budget methods
 
-Checked 2026-11-14. Prices change; re-check the source page and state the check date in any proposal.
+Prices, dates and rules change; look them up on the source page at planning time and state the check date in any proposal.
 
 ## Price the whole party
 - Always compute all-in for every member by age tier (adult/youth/child/under-2), plus fees, parking, fuel, food, rentals. The `product-price-monitor` skill's rule applies: never compare a base fare with an all-in budget.
 - Age tiers differ by venue and by pass. Example: federal passes admit children 15 and under free at per-person sites, while some museums are free for everyone 18 and under.
 
 ## Federal: America the Beautiful passes
-Source: https://www.nps.gov/planyourvisit/passes.htm (updated 2026-10-09)
+Source: https://www.nps.gov/planyourvisit/passes.htm (current prices are there; quote them with the check date)
 
-| Pass | Who | Price |
-|---|---|---|
-| Resident Annual | U.S. citizens/residents | $80 |
-| Non-Resident Annual | non-U.S. residents | $250 |
-| Senior Annual / Lifetime | 62+ | $20 / $80 |
-| Military Annual / Lifetime | current military + dependents / Gold Star families, veterans | Free |
-| **Access Pass** (lifetime) | U.S. citizens/residents with a permanent disability | **Free** |
-| 4th Grade Pass | U.S. 4th graders | Free |
-| Volunteer | 250 service hours | Free |
+| Pass | Who |
+|---|---|
+| Annual (resident / non-resident pricing may differ) | anyone; check residency rules |
+| Senior Annual / Lifetime | older U.S. citizens/residents; check the age rule |
+| Military Annual / Lifetime | current military + dependents / Gold Star families, veterans |
+| **Access Pass** (lifetime) | U.S. citizens/residents with a permanent disability |
+| 4th Grade Pass | U.S. 4th graders |
+| Volunteer | earned by volunteer service hours |
+
+Prices (including which passes are free): look up on the passes page above and quote with the check date.
 
 - Covers **entrance fees and standard amenity (day-use) fees** at NPS, USFWS, USFS, BLM, Reclamation and USACE sites: one private vehicle at per-vehicle sites, or pass holder + 3 adults (children 15 and under free) at per-person sites. One pass covers the whole car at per-vehicle sites (https://fs.usda.gov/sites/nfs/files/legacy-media/r05/America%20the%20Beautiful%20Brochure-English.pdf).
 - **Access Pass** may give a 50% discount on some expanded amenity fees (camping, swimming, boat launch, specialized interpretive services); sometimes only for the pass holder. It generally does NOT cover concessioner fees or special recreation permits (https://nps.gov/piro/planyourvisit/americathebeautiful.htm; https://www.nps.gov/planyourvisit/passes.htm).
 - Access Pass eligibility: any age, medically determined permanent disability that severely limits one or more major life activities (not necessarily 100%). Documentation: photo ID plus ONE of: a licensed physician's signed letter stating (1) the disability is permanent, (2) it severely limits one or more aspects of daily life, (3) the nature of the limitations; OR a federal agency document of disability benefits (VA, SSA); OR a state agency document (e.g., Vocational Rehabilitation). Source: https://www.nps.gov/subjects/accessibility/interagency-access-pass.htm
-- Three routes (NPS page updated 2026-08-11): (1) in person at 1,000+ federal recreation sites (recommended; physical pass); (2) **digital pass through Recreation.gov** - saved to a mobile device and usable immediately, no wait; (3) by mail from the USGS online store (physical pass only; up to 3 weeks; order receipts are not valid as passes; NPS suggests ordering at least 3 weeks ahead). Online USGS orders are physical passes, not digital ones. Same eligibility documentation applies to all routes. Passes are non-refundable, non-transferable, not replaceable if lost; photo ID required with each use.
+- Three routes (check the NPS Access Pass page for the current options): (1) in person at 1,000+ federal recreation sites (recommended; physical pass); (2) **digital pass through Recreation.gov** - saved to a mobile device and usable immediately, no wait; (3) by mail from the USGS online store (physical pass only; up to 3 weeks; order receipts are not valid as passes; NPS suggests ordering at least 3 weeks ahead). Online USGS orders are physical passes, not digital ones. Same eligibility documentation applies to all routes. Passes are non-refundable, non-transferable, not replaceable if lost; photo ID required with each use.
 - Does NOT cover state parks (they need a state pass; see below). Because the pass is non-transferable, plan for the pass holder to be in the vehicle.
-- **2026 NPS fee-free days** (U.S. citizens/residents only from 2026): Feb 16, May 25, Jun 14, Jul 3-5, Aug 25, Sep 17, Oct 27, Nov 11. Timed-entry or reservation fees may still apply.
+- **NPS fee-free days:** look up the trip year's dates and eligibility on nps.gov (fee-free parks page) and state the date checked. Timed-entry or reservation fees may still apply.
 - Timed entry: some popular parks require timed-entry reservations through recreation.gov in peak season; check the park's own page.
 
 ## State parks

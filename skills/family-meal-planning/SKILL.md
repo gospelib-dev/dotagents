@@ -4,7 +4,7 @@ description: Use when planning family meals, groceries or food safety.
 metadata:
   version: "0.1.0"
   status: draft
-  owner: Lance
+  owner: maintainer
 ---
 
 # Family meal planning and home cooking

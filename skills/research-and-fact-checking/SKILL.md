@@ -4,13 +4,13 @@ description: Use for research, fact-checks or news briefs. Expert method.
 metadata:
   version: "0.1.0"
   status: draft
-  owner: Lance
+  owner: maintainer
 ---
 
 # Research and fact-checking method
 
 This is the working method behind an assistant's research and news instructions. It adds depth; it never
-overrides them. Report layout, citation-per-claim, no phone calls, no spending and the household rules
+overrides them. Report layout, citation-per-claim, channel preferences, spending limits and the household rules
 stay exactly as your instructions say. Citation mechanics live in `grounded-citations`; failed fetches go to
 `blocked-page-recovery`. Details, tables and every source URL are in `references/`.
 
@@ -101,8 +101,7 @@ sources: references/referral-and-safety.md (routes table). Stop and say so plain
 - A diagnosis, dosing, legal advice on a live matter, tax filing positions, structural, gas or electrical
   work, or anything a licence exists to protect: give the evidence summary, then name the kind of
   professional to consult and a written route to them (portal, email, web form).
-- Follow the requester's contact preferences (the household's own rules win): prefer written routes,
-  and if a process appears phone-only, say so plainly.
+- Honour the person's channel preferences from their profile; when a channel is excluded, find the written route; if a process truly needs an excluded channel, say so plainly.
 
 ## Common mistakes (check before sending)
 - Reading vertically: judging a site from inside itself.

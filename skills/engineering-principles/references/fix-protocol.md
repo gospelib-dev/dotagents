@@ -135,7 +135,8 @@ make it an error. If no guard is feasible, say why in the report.
 ## 9. Verify
 
 Before you call the class fixed, check that the code you touched still fits the system as it runs
-today, not only the pattern you searched for. Names, settings, endpoints and auth that describe a
+today, not only the pattern you searched for. Use what the repo records (decision records, docs,
+configuration, recent history); a missing live credential does not excuse the check. Names, settings, endpoints and auth that describe a
 retired setup are a class of their own (see the review protocol, section 2); fix them in the same
 change when they are in scope, or mark them per section 11.
 

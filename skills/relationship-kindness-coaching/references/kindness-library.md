@@ -7,7 +7,7 @@ Pick **one**. Adapt it to the real day (both partners' schedules, caregiving win
 2. Is the receiving partner depleted right now? Choose effortless-to-receive or load-reducing acts.
 3. Will the partner **notice** it? Unnoticed kindness had no mood effect (Gable et al., cited in Gable et al. 2004, `evidence-and-popular-claims.md`), so make it visible or say it.
 4. Is it a rest day with chore restrictions? Use a connection act, not a chore.
-5. Does it rely on a channel the helper won't use (for example phone calls)? Use text, a note, or in person.
+5. Does it rely on a channel the helper's preferences exclude? Honour their preferences and pick one they use (text, a note, in person).
 6. Vary the type across days (words, time, help, touch, small surprise): love as a balanced diet, not one "language" (Impett et al. 2024, `evidence-and-popular-claims.md`).
 
 ## Library

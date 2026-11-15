@@ -39,14 +39,20 @@ One-paragraph worksheet: "Instead of [alternative], [target customer] uses [prod
 
 **Where sources pull differently:** McKenzie says charge more and price out low-end customers [SP][KZ]; Graham says that when choosing between the segment that signs up quickest and the one that pays most, pick the quickest because they are the early adopters [PG-DS, note 8]. Rule followed here: target the early-adopter segment, but still charge a real price from the first offer, because the goal is proof of payment.
 
-## Fees (check before choosing where to take payment)
-| Channel | Fee | Source |
+## Fees (compare at decision time)
+Payment and app-store fees change by date, market, program and product type, so none are written
+here. Before choosing where to take payment, open each channel's official fee page, compute the
+net per sale for the actual price and plan type (one-off, subscription, international buyer), and
+quote the figures with the check date.
+
+| Channel | Where the current fee lives | Watch for |
 |---|---|---|
-| Stripe cards (US standard) | 2.9% + 30¢ per successful domestic card transaction; +1.5% international cards; +1% currency conversion; no setup or monthly fees | [STR] |
-| Apple App Store Small Business Program | 15% commission on paid apps and in-app purchases for developers with up to US$1M proceeds in the prior calendar year, and new developers | [APL] |
-| Google Play, US/UK/EEA from June 30, 2026 | Auto-renewing subscriptions: 10% service fee + 5% billing fee when using Google Play billing; billing fee does not apply via alternative billing or external web links | [GP] |
-| Google Play, other markets until global rollout | 15% for first US$1M in the 15% tier; 15% for subscriptions | [GP] |
-App store fee rules change; recheck the official page on each use.
+| Card processor (e.g. Stripe) | the processor's own pricing page [STR] | per-transaction % + fixed fee; international and currency-conversion add-ons |
+| Apple App Store | Apple's developer program / small business program pages [APL] | reduced-rate program eligibility |
+| Google Play | Play Console service-fee help page [GP] | separate service and billing fees; regional rules; alternative billing and external links |
+
+Method: compare store fees against a hosted card checkout for the same plan; a store's
+distribution can be worth its fee, but say what the fee costs at the expected volume.
 
 ## Pricing worksheet for a first offer
 1. Alternative the customer uses now and what it costs them (money + hours x their hourly value).

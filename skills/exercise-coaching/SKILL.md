@@ -4,7 +4,7 @@ description: Use when coaching exercise or setting nutrition targets.
 metadata:
   version: "0.1.0"
   status: draft
-  owner: Lance
+  owner: maintainer
 ---
 
 # Exercise coaching

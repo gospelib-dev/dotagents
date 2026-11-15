@@ -4,7 +4,7 @@ description: Use when planning, permitting or restarting a home remodel.
 metadata:
   version: "0.1.0"
   status: draft
-  owner: Lance
+  owner: maintainer
 ---
 
 # Owner-builder remodeling (basement finishing as the worked case)

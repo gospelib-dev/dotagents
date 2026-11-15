@@ -4,7 +4,7 @@ description: Use when planning family outings or trips. Access and budget gates.
 metadata:
   version: "0.1.0"
   status: draft
-  owner: Lance
+  owner: maintainer
 ---
 
 # Accessible Family Trips
@@ -34,7 +34,7 @@ From memory and shared notes, write down for this task only:
 - For each member with needs: mobility (walking distance, device, transfers), sensory (noise, crowds, light), elopement/wandering risk, medical (meds, devices, refrigeration, seizure or breathing plans), toileting/changing needs, stamina window.
 - Fixed anchors (school, therapy, work, worship, family time) and the household's no-go days for chores vs. family activities.
 - Budget ceiling and who approves spending.
-- Channel rules: if a member avoids phone calls, every action you hand them must be web, email, text or form. Find the written route; if a process is truly phone-only, say so plainly.
+- Channel rules: Honour the person's channel preferences from their profile; when a channel is excluded, find the written route (web, email, text or form) for every action you hand them; if a process truly needs an excluded channel, say so plainly.
 If a needs fact is missing, design for the most demanding plausible case and list the assumption in your output. Never guess a diagnosis.
 
 ### 2. Generate candidates cheapest-first

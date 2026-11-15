@@ -44,7 +44,7 @@ Grouped in `skills.sh.json` (Hermes shows these as hub categories). Each profile
 | `alert-triage` | an alert webhook wakes you. Dedupe by fingerprint, diagnose read-only |
 | `readonly-infrastructure-inspection` | inspecting servers, storage, backups or networks with read-only keys |
 
-### Writing & book production (16)
+### Writing & book production (17)
 
 | Skill | Use when |
 | --- | --- |
@@ -58,6 +58,7 @@ Grouped in `skills.sh.json` (Hermes shows these as hub categories). Each profile
 | `layered-chapter-drafting` | drafting a chapter from an outline. Brief, layered passes, gates |
 | `manuscript-book-build` | building or verifying DOCX/EPUB from chapters. Inspect real output |
 | `manuscript-readiness-assessment` | judging if a chapter is publish-ready. Full rubric, ranked fixes |
+| `multi-model-drafting` | drafting prose with several models. Fan out, merge blind, notes |
 | `markdown-section-extraction` | pulling sections from big markdown files by heading. Script |
 | `originality-check` | checking a manuscript for copied text or derivative concepts |
 | `prose-text-analysis` | measuring prose: readability, n-grams, overuse, avoid-list hits |

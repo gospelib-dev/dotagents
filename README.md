@@ -102,7 +102,7 @@ Grouped in `skills.sh.json` (Hermes shows these as hub categories). Each profile
 | `person-profile-seeding` | building or refreshing a person's notes from their read-only accounts |
 | `smart-home-request-handling` | relaying or doing a request to read or change smart-home devices |
 
-### Owner-facing (1)
+### Lance-facing (1)
 
 | Skill | Use when |
 | --- | --- |

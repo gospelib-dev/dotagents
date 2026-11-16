@@ -2,7 +2,7 @@
 name: story-continuity-audit
 description: Use when checking story canon/continuity against prose. Cited ledgers.
 metadata:
-  version: "0.1.0"
+  version: "0.1.1"
   status: draft
   owner: maintainer
 ---

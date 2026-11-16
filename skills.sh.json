@@ -5,6 +5,7 @@
       "title": "Common (every agent)",
       "skills": [
         "fixing-a-wrong-memory",
+        "reading-archived-tool-output",
         "use-existing-solutions-first"
       ]
     },

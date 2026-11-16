@@ -2,7 +2,7 @@
 name: tech-debt-ranking
 description: Use when producing a recurring ranked, deduped tech-debt backlog. No code edits.
 metadata:
-  version: "0.1.0"
+  version: "0.1.1"
   status: draft
   owner: maintainer
 ---
@@ -42,13 +42,16 @@ changes**; fixing debt is someone else's task.
    it (`git grep … origin/<branch>`, `git show origin/<branch>:<path>`, `git ls-tree -r`); never
    check out or pull in a checkout another run may hold.
 3. **CI health first.**
-   - Find the latest run that actually started. A run with an empty name / build-failed path means
-     the CI service itself never started (billing, spending limit), not a workflow bug.
+   - Find the latest run that actually started. A run with an empty name / build-failed path / no jobs
+     means the CI service itself never started (billing, spending limit), not a workflow bug. Leave
+     such runs out of failure and flakiness rates; if runs keep failing to start, file that as its own
+     finding with the evidence.
    - Per-workflow failure rate and median duration over a recent window.
    - For a chronically red workflow, see which step fails. All jobs failing at the same setup step
      is an infrastructure defect: file it.
    - Runs on the integration branch triggered by a *pull request* event come from a promotion PR,
-     not from integration pushes; don't read them as branch health.
+     not from integration pushes; don't read them as branch health. Read the current workflow
+     triggers and each run's base and head before counting it; do not hardcode branch names.
    - A workflow red on every run since its PR merged, whose task is still in review, is a live
      defect: file it *and* post one evidence comment on that task, because a backlog item will not
      reach anyone before the review finishes.

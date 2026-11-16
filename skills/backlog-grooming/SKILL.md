@@ -2,7 +2,7 @@
 name: backlog-grooming
 description: Use when grooming a backlog: one state per item, verify claims, owner unblocks.
 metadata:
-  version: "0.1.0"
+  version: "0.1.1"
   status: draft
   owner: maintainer
 ---
@@ -28,6 +28,13 @@ list of things only the owner can unblock.
   the integration branch. "Closed" is not "landed": prove landing with an ancestor check
   (`git merge-base --is-ancestor <head> origin/<branch>`), because release routines can close source
   PRs unmerged.
+- **Reproduce a claimed blocker before it reaches the owner.** When an agent reports "no access to X",
+  test it from the same runtime the agent uses (same host or sandbox, same credentials; read its
+  runtime config to find where that is), e.g. a batch-mode SSH probe or `stat` on the failing path. If
+  it works, send the item back to the agent with the evidence instead of listing it for the owner. If
+  you cannot reach that runtime, say your test was not equivalent. Whoever relays the result later
+  (e.g. a standup hours afterwards) re-checks each owner item against live state and says which had
+  gone stale.
 - **Never close, cancel or merge anything.** List it for the owner with evidence. Grooming changes
   priority, edges and definition; it does not end work.
 - **The owner's attention is the scarce resource.** Put the owner unblock list first, short (about

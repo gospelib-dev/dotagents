@@ -2,7 +2,7 @@
 name: pull-request-review
 description: Use when reviewing another agent's PR. Verify claims, pin head, one verdict.
 metadata:
-  version: "0.1.0"
+  version: "0.1.1"
   status: draft
   owner: maintainer
 ---
@@ -119,9 +119,15 @@ requires it) without double work:
 - Skip PRs another lane owns (bot dependency PRs usually belong to the dependency steward) and PRs
   that already have a review in flight or an agent review at the current head.
 - Assign the reviewer from the *other* model family than the author: cross-model review catches
-  what same-model review misses. Never review your own family's work if the profile forbids it.
+  what same-model review misses. Find the author from the delivery task's assignee, else from commit
+  authorship, then read the author's and each candidate reviewer's configured model at task time.
+  Never infer a model from an agent's name or a remembered roster; both drift. Record the agents, their
+  model settings and the date checked in the review task. Never review your own family's work if the
+  profile forbids it.
 - Create review and QA tasks idempotently (a key that includes the date and PR number), with QA
   depending on the review so it starts only after.
+- When merges go through a queue owned by another agent, also create its admission task idempotently,
+  depending on the QA task, so the queue steward wakes only when a PR becomes eligible.
 - Cap rounds: after the third change request on the same PR, escalate the disagreement to the owner
   as one decidable sentence rather than starting round four.
 - End with one line: nothing to review, or the list of queued reviews.
@@ -131,8 +137,12 @@ requires it) without double work:
 - Long checks in the foreground time out and lose output. Run them in the background, one log per
   checker with its real exit code, and poll a summary file. A pipe through `tail` hides the exit
   status.
-- A small or `noexec` temp dir breaks tests that put stub binaries in `mktemp -d`. Re-run with a
-  temp dir on a real disk before blaming the PR.
+- A small or `noexec` temp dir breaks tests that put stub binaries in `mktemp -d`, and native Node
+  bindings (bundlers, test runners) fail to load from it. Check with `findmnt -no OPTIONS -T <dir>` and
+  re-run from an exec-capable temp dir on a real disk before blaming the PR.
+- If a frozen-lockfile install (`npm ci`, `uv sync --frozen`) fails, record the lockfile drift as a
+  reproducibility finding. A non-frozen install in a throwaway worktree may continue the review; never
+  commit the rewritten lockfile as part of the review.
 - A committed `.patch` file always fails `git diff --check <base>...HEAD`. Authors who report
   "`git diff --check` passed" with no range on a clean tree checked nothing.
 - If a second review task exists for the same head, say so; do not review twice.

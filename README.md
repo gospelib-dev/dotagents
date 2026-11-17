@@ -91,6 +91,13 @@ Grouped in `skills.sh.json` (Hermes shows these as hub categories). Each profile
 | `household-money-guidance` | answering household money, bill, debt or cash-flow questions |
 | `reconciled-spending-reports` | reporting household spending, income or balances to the exact cent |
 
+### Faith & teaching (2)
+
+| Skill | Use when |
+| --- | --- |
+| `latter-day-saint-gospel-research` | answering a Latter-day Saint gospel question, source-first and cited |
+| `sacrament-talk-prep` | helping someone prepare a sacrament meeting talk: discuss, track, outline |
+
 ### Personal assistant (6)
 
 | Skill | Use when |

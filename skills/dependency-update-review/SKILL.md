@@ -2,7 +2,7 @@
 name: dependency-update-review
 description: Use when triaging bot dependency PRs or lockfile changes. Reconcile, verdict.
 metadata:
-  version: "0.1.0"
+  version: "0.1.1"
   status: draft
   owner: maintainer
 ---
@@ -34,6 +34,10 @@ the single-PR method, queue audits, recording verdicts durably, and editing the 
   verdict is a signal for whoever owns the merge queue (see `merge-queue-stewardship`).
 - **A verdict only in the transcript is not a verdict.** Every PR gets a label (the index) and a
   comment (the record), both naming the head they apply to.
+- **A verdict on the board is not a verdict on the forge.** If the base branch requires an approving
+  review, a Merge label alone admits nothing: the PR also needs an APPROVE review bound to the
+  verdict's head. A Close verdict ends with the PR actually closed. Close the loop on the forge, not
+  only on your task card.
 - **Hold means "not yet", Close means "not this".** Never downgrade a Hold to Close because the
   unblock looks like work.
 
@@ -82,6 +86,13 @@ at the source (an `ignore` entry, or a recorded pin rationale) in its own PR.
    what a human should verify that CI cannot: runtime behaviour, deployed-version skew, new
    deprecation warnings in logs. Do not recommend "run the test suite"; CI does that.
 8. **Record it** (label + comment, see [references/verdict-records.md](references/verdict-records.md)).
+9. **Resolve it on the forge.**
+   - Merge: confirm the PR head still equals the head named in the verdict, then make sure an
+     APPROVE review exists for that exact commit (GitHub: `POST /repos/{o}/{r}/pulls/{n}/reviews`
+     with `event=APPROVE` and `commit_id=<head>`). Verify the review decision reads approved
+     (`gh pr view <n> --json reviewDecision`).
+   - Close: post the verdict comment, close the PR (add the bot's ignore command only if the verdict
+     says so), verify the state is closed.
 
 ## Queue audit
 
@@ -134,6 +145,10 @@ majors, OpenTelemetry release streams, Python lock tooling) are in
 [references/ecosystem-traps.md](references/ecosystem-traps.md).
 
 - Before blaming a red check on the bump, confirm it is not red on the base tip.
+- **The last pusher cannot approve.** With "require approval of the most recent push" (GitHub
+  ruleset `require_last_push_approval`), pushing a lockfile commit makes your own APPROVE count for
+  nothing. A different identity (the project's reviewer agent or a human) must approve that head.
+  Do not self-approve and call the PR done; check the review decision.
 - Every worktree you create is removed on every exit path; a leaked one is indistinguishable from
   real work. Check for uncommitted unique work before forcing removal.
 - Infrastructure-provider bumps (Terraform etc.) affect live infra: never apply; a plan against live
@@ -145,9 +160,14 @@ Exactly one verdict label per PR, matching the comment, both naming the current 
 interim verdicts left; every Hold has an unblock path; every Close has a posted reason; local
 checks and provider rollup reported as separate claims.
 
+End-of-run forge invariant: no open PR with a Merge verdict still shows review required
+(`gh pr list --state open --label <merge-label> --json number,reviewDecision`), and no open PR
+carries the Close verdict. Fix or report each exception.
+
 ## Project specifics
 
 The project's dependency skill or `AGENTS.md` supplies the base branch, ecosystems and lock
 commands per directory, label names and colours, the comment marker, known-flaky checks, lockstep
-pins, who adjudicates (some projects require a specific model to issue verdicts), the merge queue,
+pins, who adjudicates (some projects require a specific model to issue verdicts), which identity
+submits the approving review, the merge queue,
 and the weekly schedule.
